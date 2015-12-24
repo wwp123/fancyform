@@ -22,7 +22,7 @@
 <script type="text/javascript" src="javascript/FancyForm.js"></script>
 ```
  
-* 在页面上配置使用参数：
+* 在页面上添加代码：
 
 ```javascript
 <div class="border-dotted tag-box">
@@ -93,7 +93,7 @@
 </div>
 ```
 
-* 在页面上添加代码
+* 在页面上配置使用参数
 
 ```javascript
 
