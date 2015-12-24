@@ -10,7 +10,7 @@ a:hover{color:#3366cc!important;text-decoration:none;}
 *html .clearfix{height:1%;}
 .clearfix{display:block;}/* End hide from IE-mac */
 *+html .clearfix{min-height:1%;}
-.tag{/*width:600px;*/margin:20px auto;position:relative;}
+.tag{width:600px;margin:20px auto;position:relative;}
 /* Form input */
 .Form li{font-size:21px;font-weight:300}
 .Form input[type=text],.Form input[type=password],.Form textarea{
@@ -128,3 +128,6 @@ a:hover{color:#3366cc!important;text-decoration:none;}
   font-size: 14px;
 }
 .border-dotted{ border-bottom:dotted #D8DCE0 thin;}
+form .row .row .column, form .row .row .columns {
+  padding: 0 0;
+}

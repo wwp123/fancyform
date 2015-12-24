@@ -7,213 +7,236 @@
 <link href="style/layout-pc.css" rel="stylesheet" type="text/css" />
 <link href="style/master-pc.css" rel="stylesheet" type="text/css" />
 <link href="style/FancyForm.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="javascript/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="javascript/FancyForm.js"></script>
 <!--标签插件CSS文件-->
 <link href="style/FancyForm.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-<div class="white-bg" id="data_box_con">
-                    <div class="topic-con">
-                    	<form data-abide="ajax" id="form">
-                        	<div class="border-dotted tag-box">
-                                <div class="tag" id="tag1">
-                                	<div class="row clearfix">
-                                	<div class="large-2 columns">
-                                    	<span class="category right"><span class="star-red">*</span>特长：</span>
-                                    </div>
-                                    <div class="large-10 columns">
-                                    	<div class="row">
-                                        	<span class="font-gray">添加描述特长方面的词语，让更多的人找到你，让你找到更多的同类</span>
-                                        </div>
-                                        <div class="row">
-                                        	<div class="sel-bor">
-                                                <div class="plus-tag tagbtn clearfix"></div>
-                                                <div class="plus-tag-add">
-                                                    <ul class="Form FancyForm">
-                                                        <li>
-                                                            <input id="" name="" type="text" class="stext" maxlength="20" />
-                                                            <label>输入标签</label>
-                                                            <span class="fff"></span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    	<div class="row">
-                                        	<div class="large-3 columns">
-                                            	<span class="">您可能感兴趣的标签：</span>
-                                            </div>
-                                            <div class="large-9 columns">
-                                                <div id="mycard-plus">
-                                                    <div class="default-tag tagbtn">
-                                                        <div class="clearfix">
-                                                            <a value="-1" title="美声" href="javascript:void(0);"><span>美声</span><em></em></a>
-                                                            <a value="-1" title="芭蕾舞" href="javascript:void(0);"><span>芭蕾舞</span><em></em></a>
-                                                            <a value="-1" title="写作" href="javascript:void(0);"><span>写作</span><em></em></a>
-                                                            <a value="-1" title="摄影" href="javascript:void(0);"><span>摄影</span><em></em></a>
-                                                            <a value="-1" title="瑜伽" href="javascript:void(0);"><span>瑜伽</span><em></em></a>
-                                                            <a value="-1" title="散打" href="javascript:void(0);"><span>散打</span><em></em></a>
-                                                            <a value="-1" title="台球" href="javascript:void(0);"><span>台球</span><em></em></a>
-                                                            <a value="-1" title="轮滑" href="javascript:void(0);"><span>轮滑</span><em></em></a>
-                                                            <a value="-1" title="游泳" href="javascript:void(0);"><span>游泳</span><em></em></a>
-                                                            <a value="-1" title="羽毛球" href="javascript:void(0);"><span>羽毛球</span><em></em></a>
-                                                            <a value="-1" title="手工" href="javascript:void(0);"><span>手工</span><em></em></a>
-                                                            <a value="-1" title="小提琴" href="javascript:void(0);"><span>小提琴</span><em></em></a>
-                                                            <a value="-1" title="小品" href="javascript:void(0);"><span>小品</span><em></em></a>
-                                                            <a value="-1" title="剪纸" href="javascript:void(0);"><span>剪纸</span><em></em></a>
-                                                            <a value="-1" title="编织" href="javascript:void(0);"><span>编织</span><em></em></a>
-                                                            <a value="-1" title="主持" href="javascript:void(0);"><span>主持</span><em></em></a>
-                                                            <a value="-1" title="书法" href="javascript:void(0);"><span>书法</span><em></em></a>                   
-                                                        </div>
-                                                        <div class="clearfix" style="display:none;">
-                                                            <a value="-1" title="高尔夫" href="javascript:void(0);"><span>高尔夫</span><em></em></a>
-                                                            <a value="-1" title="绘画" href="javascript:void(0);"><span>绘画</span><em></em></a>
-                                                        </div>
-                                                        <div class="clearfix" style="display:none;"><a value="-1" title="跳高" href="javascript:void(0);"><span>跳高</span><em></em></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                        	<div class="right"><a href="javascript:void(0);" id="change-tips" style="color:#3366cc;">换一换</a></div>
-                                        </div>
-                                    </div>
-                                </div>		
+<div class="layout" id="layout">
+  <div class="wrapper" id="frame_wrapper">
+  
+      <div class="main" role="main" aria-label="主体区块" id="frame_main">
+        <div class="row margin-t" id="frame_main_row1">
+            <div class="topic-box radius secondary-bg" id="frame_topic_box1">
+            <div class="white-bg" id="data_box_con">
+                <div class="topic-head clearfix">
+                    <div class="topic-title small-inline left"><h3 class="inline">标签插件</h3></div> 
+                </div>
+                <div class="topic-con">
+                    <form data-abide="ajax" id="form">
+                        <div class="border-dotted tag-box">
+                            <div class="tag" id="tag1">
+                                <div class="row clearfix">
+                                <div class="large-2 columns">
+                                    <span class="category right"><span class="star-red">*</span>特长：</span>
                                 </div>
-                            </div>
-                            <div class="border-dotted tag-box">
-                                <div class="tag" id="tag2">
-                                	<div class="row clearfix">
-                                	<div class="large-2 columns">
-                                    	<span class="category right"><span class="star-red">*</span>爱好：</span>
+                                <div class="large-10 columns">
+                                    <div class="row">
+                                        <span class="font-gray">添加描述特长方面的词语，让更多的人找到你，让你找到更多的同类</span>
                                     </div>
-                                    <div class="large-10 columns">
-                                    	<div class="row">
-                                        	<span class="font-gray">添加描述爱好方面的词语，让更多的人找到你，让你找到更多的同类</span>
-                                        </div>
-                                        <div class="row">
-                                        	<div class="sel-bor">
-                                                <div class="plus-tag tagbtn clearfix"></div>
-                                                <div class="plus-tag-add">
-                                                    <ul class="Form FancyForm">
-                                                        <li>
-                                                            <input id="" name="" type="text" class="stext" maxlength="20" />
-                                                            <label>输入标签</label>
-                                                            <span class="fff"></span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+                                    <div class="row">
+                                        <div class="sel-bor">
+                                            <div class="plus-tag tagbtn clearfix"></div>
+                                            <div class="plus-tag-add">
+                                                <ul class="Form FancyForm">
+                                                    <li>
+                                                        <input id="" name="" type="text" class="stext" maxlength="20" />
+                                                        <label>输入标签</label>
+                                                        <span class="fff"></span>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
-                                    	<div class="row">
-                                        	<div class="large-3 columns">
-                                            	<span class="">您可能感兴趣的标签：</span>
-                                            </div>
-                                            <div class="large-9 columns">
-                                                <div id="mycard-plus">
-                                                    <div class="default-tag tagbtn">
-                                                        <div class="clearfix">
-                                                            <a value="-1" title="旅游" href="javascript:void(0);"><span>旅游</span><em></em></a>
-                                                            <a value="-1" title="看电影" href="javascript:void(0);"><span>看电影</span><em></em></a>
-                                                            <a value="-1" title="听音乐" href="javascript:void(0);"><span>听音乐</span><em></em></a>
-                                                            <a value="-1" title="玩游戏" href="javascript:void(0);"><span>玩游戏</span><em></em></a>
-                                                            <a value="-1" title="睡觉" href="javascript:void(0);"><span>睡觉</span><em></em></a>
-                                                            <a value="-1" title="上网聊天" href="javascript:void(0);"><span>上网聊天</span><em></em></a>
-                                                            <a value="-1" title="运动" href="javascript:void(0);"><span>运动</span><em></em></a>
-                                                            <a value="-1" title="健身" href="javascript:void(0);"><span>健身</span><em></em></a>
-                                                            <a value="-1" title="篮球" href="javascript:void(0);"><span>篮球</span><em></em></a>
-                                                            <a value="-1" title="绘画" href="javascript:void(0);"><span>绘画</span><em></em></a>
-                                                            <a value="-1" title="手工" href="javascript:void(0);"><span>手工</span><em></em></a>
-                                                            <a value="-1" title="烹饪" href="javascript:void(0);"><span>烹饪</span><em></em></a>
-                                                            <a value="-1" title="跆拳道" href="javascript:void(0);"><span>跆拳道</span><em></em></a>
-                                                            <a value="-1" title="乒乓球" href="javascript:void(0);"><span>乒乓球</span><em></em></a>                  
-                                                        </div>
-                                                        <div class="clearfix" style="display:none;">
-                                                            <a value="-1" title="滑雪" href="javascript:void(0);"><span>滑雪</span><em></em></a>
-                                                            <a value="-1" title="看书" href="javascript:void(0);"><span>看书</span><em></em></a>
-                                                            <a value="-1" title="棋牌" href="javascript:void(0);"><span>棋牌</span><em></em></a> 
-                                                        </div>
-                                                        <div class="clearfix" style="display:none;"><a value="-1" title="编程" href="javascript:void(0);"><span>编程</span><em></em></a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-3 columns">
+                                            <span class="">您可能感兴趣的标签：</span>
+                                        </div>
+                                        <div class="large-9 columns">
+                                            <div id="mycard-plus">
+                                                <div class="default-tag tagbtn">
+                                                    <div class="clearfix">
+                                                        <a value="-1" title="美声" href="javascript:void(0);"><span>美声</span><em></em></a>
+                                                        <a value="-1" title="芭蕾舞" href="javascript:void(0);"><span>芭蕾舞</span><em></em></a>
+                                                        <a value="-1" title="写作" href="javascript:void(0);"><span>写作</span><em></em></a>
+                                                        <a value="-1" title="摄影" href="javascript:void(0);"><span>摄影</span><em></em></a>
+                                                        <a value="-1" title="瑜伽" href="javascript:void(0);"><span>瑜伽</span><em></em></a>
+                                                        <a value="-1" title="散打" href="javascript:void(0);"><span>散打</span><em></em></a>
+                                                        <a value="-1" title="台球" href="javascript:void(0);"><span>台球</span><em></em></a>
+                                                        <a value="-1" title="轮滑" href="javascript:void(0);"><span>轮滑</span><em></em></a>
+                                                        <a value="-1" title="游泳" href="javascript:void(0);"><span>游泳</span><em></em></a>
+                                                        <a value="-1" title="羽毛球" href="javascript:void(0);"><span>羽毛球</span><em></em></a>
+                                                        <a value="-1" title="手工" href="javascript:void(0);"><span>手工</span><em></em></a>
+                                                        <a value="-1" title="小提琴" href="javascript:void(0);"><span>小提琴</span><em></em></a>
+                                                        <a value="-1" title="小品" href="javascript:void(0);"><span>小品</span><em></em></a>
+                                                        <a value="-1" title="剪纸" href="javascript:void(0);"><span>剪纸</span><em></em></a>
+                                                        <a value="-1" title="编织" href="javascript:void(0);"><span>编织</span><em></em></a>
+                                                        <a value="-1" title="主持" href="javascript:void(0);"><span>主持</span><em></em></a>
+                                                        <a value="-1" title="书法" href="javascript:void(0);"><span>书法</span><em></em></a>                   
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                        	<div class="right"><a href="javascript:void(0);" id="change-tips" style="color:#3366cc;">换一换</a></div>
-                                        </div>
-                                    </div>
-                                </div>		
-                                </div>
-                            </div>
-                            <div class="border-dotted tag-box">
-                                <div class="tag" id="tag3">
-                                	<div class="row clearfix">
-                                	<div class="large-2 columns">
-                                    	<span class="category right"><span class="star-red">*</span>性格：</span>
-                                    </div>
-                                    <div class="large-10 columns">
-                                    	<div class="row">
-                                        	<span class="font-gray">添加描述性格方面的词语，让更多的人找到你，让你找到更多的同类</span>
-                                        </div>
-                                        <div class="row">
-                                        	<div class="sel-bor">
-                                                <div class="plus-tag tagbtn clearfix"></div>
-                                                <div class="plus-tag-add">
-                                                    <ul class="Form FancyForm">
-                                                        <li>
-                                                            <input id="" name="" type="text" class="stext" maxlength="20" />
-                                                            <label>输入标签</label>
-                                                            <span class="fff"></span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    	<div class="row">
-                                        	<div class="large-3 columns">
-                                            	<span class="">您可能感兴趣的标签：</span>
-                                            </div>
-                                            <div class="large-9 columns">
-                                                <div id="mycard-plus">
-                                                    <div class="default-tag tagbtn">
-                                                        <div class="clearfix">
-                                                            <a value="-1" title="温柔体贴" href="javascript:void(0);"><span>温柔体贴</span><em></em></a>
-                                                            <a value="-1" title="活泼可爱" href="javascript:void(0);"><span>活泼可爱</span><em></em></a>
-                                                            <a value="-1" title="风趣幽默" href="javascript:void(0);"><span>风趣幽默</span><em></em></a>
-                                                            <a value="-1" title="积极进取" href="javascript:void(0);"><span>积极进取</span><em></em></a>
-                                                            <a value="-1" title="爱管闲事" href="javascript:void(0);"><span>爱管闲事</span><em></em></a>
-                                                            <a value="-1" title="多愁善感" href="javascript:void(0);"><span>多愁善感</span><em></em></a>
-                                                            <a value="-1" title="追求刺激" href="javascript:void(0);"><span>追求刺激</span><em></em></a>
-                                                            <a value="-1" title="待人诚恳" href="javascript:void(0);"><span>待人诚恳</span><em></em></a>
-                                                            <a value="-1" title="善于交际" href="javascript:void(0);"><span>善于交际</span><em></em></a>                  
-                                                        </div>
-                                                        <div class="clearfix" style="display:none;"><a value="-1" title="乐观" href="javascript:void(0);"><span>乐观</span><em></em></a></div>
-                                                        <div class="clearfix" style="display:none;"><a value="-1" title="自信" href="javascript:void(0);"><span>自信</span><em></em></a></div>
+                                                    <div class="clearfix" style="display:none;">
+                                                        <a value="-1" title="高尔夫" href="javascript:void(0);"><span>高尔夫</span><em></em></a>
+                                                        <a value="-1" title="绘画" href="javascript:void(0);"><span>绘画</span><em></em></a>
                                                     </div>
+                                                    <div class="clearfix" style="display:none;"><a value="-1" title="跳高" href="javascript:void(0);"><span>跳高</span><em></em></a></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                        	<div class="right"><a href="javascript:void(0);" id="change-tips" style="color:#3366cc;">换一换</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="right"><a href="javascript:void(0);" id="change-tips" style="color:#3366cc;">换一换</a></div>
+                                    </div>
+                                </div>
+                            </div>		
+                            </div>
+                        </div>
+                        <div class="border-dotted tag-box">
+                            <div class="tag" id="tag2">
+                                <div class="row clearfix">
+                                <div class="large-2 columns">
+                                    <span class="category right"><span class="star-red">*</span>爱好：</span>
+                                </div>
+                                <div class="large-10 columns">
+                                    <div class="row">
+                                        <span class="font-gray">添加描述爱好方面的词语，让更多的人找到你，让你找到更多的同类</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="sel-bor">
+                                            <div class="plus-tag tagbtn clearfix"></div>
+                                            <div class="plus-tag-add">
+                                                <ul class="Form FancyForm">
+                                                    <li>
+                                                        <input id="" name="" type="text" class="stext" maxlength="20" />
+                                                        <label>输入标签</label>
+                                                        <span class="fff"></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>		
+                                    <div class="row">
+                                        <div class="large-3 columns">
+                                            <span class="">您可能感兴趣的标签：</span>
+                                        </div>
+                                        <div class="large-9 columns">
+                                            <div id="mycard-plus">
+                                                <div class="default-tag tagbtn">
+                                                    <div class="clearfix">
+                                                        <a value="-1" title="旅游" href="javascript:void(0);"><span>旅游</span><em></em></a>
+                                                        <a value="-1" title="看电影" href="javascript:void(0);"><span>看电影</span><em></em></a>
+                                                        <a value="-1" title="听音乐" href="javascript:void(0);"><span>听音乐</span><em></em></a>
+                                                        <a value="-1" title="玩游戏" href="javascript:void(0);"><span>玩游戏</span><em></em></a>
+                                                        <a value="-1" title="睡觉" href="javascript:void(0);"><span>睡觉</span><em></em></a>
+                                                        <a value="-1" title="上网聊天" href="javascript:void(0);"><span>上网聊天</span><em></em></a>
+                                                        <a value="-1" title="运动" href="javascript:void(0);"><span>运动</span><em></em></a>
+                                                        <a value="-1" title="健身" href="javascript:void(0);"><span>健身</span><em></em></a>
+                                                        <a value="-1" title="篮球" href="javascript:void(0);"><span>篮球</span><em></em></a>
+                                                        <a value="-1" title="绘画" href="javascript:void(0);"><span>绘画</span><em></em></a>
+                                                        <a value="-1" title="手工" href="javascript:void(0);"><span>手工</span><em></em></a>
+                                                        <a value="-1" title="烹饪" href="javascript:void(0);"><span>烹饪</span><em></em></a>
+                                                        <a value="-1" title="跆拳道" href="javascript:void(0);"><span>跆拳道</span><em></em></a>
+                                                        <a value="-1" title="乒乓球" href="javascript:void(0);"><span>乒乓球</span><em></em></a>                  
+                                                    </div>
+                                                    <div class="clearfix" style="display:none;">
+                                                        <a value="-1" title="滑雪" href="javascript:void(0);"><span>滑雪</span><em></em></a>
+                                                        <a value="-1" title="看书" href="javascript:void(0);"><span>看书</span><em></em></a>
+                                                        <a value="-1" title="棋牌" href="javascript:void(0);"><span>棋牌</span><em></em></a> 
+                                                    </div>
+                                                    <div class="clearfix" style="display:none;"><a value="-1" title="编程" href="javascript:void(0);"><span>编程</span><em></em></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="right"><a href="javascript:void(0);" id="change-tips" style="color:#3366cc;">换一换</a></div>
+                                    </div>
                                 </div>
+                            </div>		
                             </div>
-                        </form>
-                        <input id="vid" type="hidden" data-th-value="${volunteerId}"/>
-                    </div>
+                        </div>
+                        <div class="tag-box">
+                            <div class="tag" id="tag3">
+                                <div class="row clearfix">
+                                <div class="large-2 columns">
+                                    <span class="category right"><span class="star-red">*</span>性格：</span>
+                                </div>
+                                <div class="large-10 columns">
+                                    <div class="row">
+                                        <span class="font-gray">添加描述性格方面的词语，让更多的人找到你，让你找到更多的同类</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="sel-bor">
+                                            <div class="plus-tag tagbtn clearfix"></div>
+                                            <div class="plus-tag-add">
+                                                <ul class="Form FancyForm">
+                                                    <li>
+                                                        <input id="" name="" type="text" class="stext" maxlength="20" />
+                                                        <label>输入标签</label>
+                                                        <span class="fff"></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-3 columns">
+                                            <span class="">您可能感兴趣的标签：</span>
+                                        </div>
+                                        <div class="large-9 columns">
+                                            <div id="mycard-plus">
+                                                <div class="default-tag tagbtn">
+                                                    <div class="clearfix">
+                                                        <a value="-1" title="温柔体贴" href="javascript:void(0);"><span>温柔体贴</span><em></em></a>
+                                                        <a value="-1" title="活泼可爱" href="javascript:void(0);"><span>活泼可爱</span><em></em></a>
+                                                        <a value="-1" title="风趣幽默" href="javascript:void(0);"><span>风趣幽默</span><em></em></a>
+                                                        <a value="-1" title="积极进取" href="javascript:void(0);"><span>积极进取</span><em></em></a>
+                                                        <a value="-1" title="爱管闲事" href="javascript:void(0);"><span>爱管闲事</span><em></em></a>
+                                                        <a value="-1" title="多愁善感" href="javascript:void(0);"><span>多愁善感</span><em></em></a>
+                                                        <a value="-1" title="追求刺激" href="javascript:void(0);"><span>追求刺激</span><em></em></a>
+                                                        <a value="-1" title="待人诚恳" href="javascript:void(0);"><span>待人诚恳</span><em></em></a>
+                                                        <a value="-1" title="善于交际" href="javascript:void(0);"><span>善于交际</span><em></em></a>                  
+                                                    </div>
+                                                    <div class="clearfix" style="display:none;"><a value="-1" title="乐观" href="javascript:void(0);"><span>乐观</span><em></em></a></div>
+                                                    <div class="clearfix" style="display:none;"><a value="-1" title="自信" href="javascript:void(0);"><span>自信</span><em></em></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="right"><a href="javascript:void(0);" id="change-tips" style="color:#3366cc;">换一换</a></div>
+                                    </div>
+                                </div>
+                            </div>		
+                            </div>
+                        </div>
+                    </form>
+                    <input id="vid" type="hidden" data-th-value="${volunteerId}"/>
                 </div>
                 
-<script>
-//标签插件
-$("#tag1").FancyForm();
-$("#tag2").FancyForm();
-$("#tag3").FancyForm();
-$("#tag4").FancyForm();
-$("#tag5").FancyForm();
-</script>
+            </div>
+            </div>
+        </div>
+      </div>
+  	  
+    <div id="frame_javascript">
+            <div id="data_javascript">
+                <!--标签插件JS文件-->
+				<script type="text/javascript" src="javascript/jquery-1.8.3.min.js"></script>
+				<script type="text/javascript" src="javascript/FancyForm.js"></script>
+                <script>
+                //标签插件
+				$("#tag1").FancyForm();
+				$("#tag2").FancyForm();
+				$("#tag3").FancyForm();
+				$("#tag4").FancyForm();
+				$("#tag5").FancyForm();
+
+				</script>
+            </div>
+        </div>
+  
+</div>
+</div>
+
 </body>
 </html>
